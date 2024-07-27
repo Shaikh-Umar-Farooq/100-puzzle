@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Tracker</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <h1 id="greeting"></h1>
+    <hr>
+    <h1 class="disclaimer">The puzzles listed here are sourced from GeeksforGeeks (geeksforgeeks.org). This tracker is a
+        compilation tool designed to help you monitor your progress through these top 100 puzzle questions. Mastering
+        these puzzles can significantly boost your preparation for placement interviews. Remember, the journey of
+        solving these puzzles is as important as the solutions themselves. Happy problem-solving!</h1>
+    <hr>
+    <div class="progress">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"> </div>
+        </div>
+        <div id="progressBar1"> <span>0%</span> </div>
+
+    </div>
+    <table id="puzzleTable">
+        <thead>
+            <tr>
+                <th>Solved</th>
+                <th>Puzzle Name</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <hr>
+    <h1 class="disclaimer">connect with me ❇️ <a href="https://www.linkedin.com/in/umar-shaikh-96b7b31a5/"> Umar
+            Shaikh</a>
+    </h1>
+
+    <div id="usernameModal">
+        <div class="modal-content">
+            <h2>Welcome!</h2>
+            <p>Please enter your name to access the Puzzle Tracker:</p>
+            <input class="input" type="text" id="usernameInput">
+            <button class="btn" onclick="setUsername()">Submit</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
